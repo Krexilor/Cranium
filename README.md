@@ -30,7 +30,7 @@ Cranium/
 ├── .vscode/
 │   ├── launch.json
 │   └── tasks.json
-├── 00 CPP Practice/
+├── 00 Practice/
 ├── 01 Introduction/
 ├── 02 C++ Basics/
 ├── 03 Functions/
@@ -51,7 +51,7 @@ For example, to compile and run the first C++ Basics exercise:
 
 ```bash
 mkdir -p build
-g++ "00 CPP Practice/01 C++ Basics/01_personal_intro.cpp" -o build/personal_intro
+g++ "00 Practice/01 C++ Basics/01_personal_intro.cpp" -o build/personal_intro
 ./build/personal_intro
 ```
 
@@ -65,7 +65,7 @@ Open the repository folder in VS Code and make a `.cpp` practice file active. In
 - Use **Run → Start Without Debugging** (or **Ctrl+F5**) to build and run without the debugger.
 - Press **Ctrl+Shift+B** to build the active file without running it.
 
-The executable is written under `build/`, keeping the source file's folder structure. For example, `00 CPP Practice/01 C++ Basics/01_personal_intro.cpp` is built to `build/00 CPP Practice/01 C++ Basics/01_personal_intro`. The run configurations use the repository root as the program's working directory.
+The executable is written under `build/`, keeping the source file's folder structure. For example, `00 Practice/01 C++ Basics/01_personal_intro.cpp` is built to `build/00 Practice/01 C++ Basics/01_personal_intro`. The run configurations use the repository root as the program's working directory.
 
 The VS Code build task uses `g++` with C++20 and the launch configuration uses `gdb`. You can still build and run files manually with the terminal commands above, using any compiler or workflow you prefer.
 
