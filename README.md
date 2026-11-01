@@ -1,4 +1,4 @@
-# C++ Learning Journey
+# Cranium - C++ Learning Journey
 
 A structured, continuously evolving repository documenting my journey toward mastering **C++** — from the fundamentals to more advanced language concepts.
 
@@ -26,17 +26,16 @@ The roadmap may expand as I explore additional areas of C++.
 ## Repository Structure
 
 ```text
-CPP-Journey/
+Cranium/
+├── .vscode/
+│   ├── launch.json
+│   └── tasks.json
 ├── 00 CPP Practice/
 ├── 01 Introduction/
 ├── 02 C++ Basics/
 ├── 03 Functions/
 ├── 04 Arrays & Data Handling/
 ├── 05 Pointers, References & Memory Basics/
-├── build/                  # Local build output (Git-ignored)
-├── .vscode/
-│   ├── launch.json
-│   └── tasks.json
 ├── .gitignore
 ├── LICENSE.txt
 └── README.md
